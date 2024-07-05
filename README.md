@@ -23,35 +23,33 @@ Content Engine is a Retrieval Augmented Generation (RAG) system that processes m
 ## Technologies Used
 
 Streamlit: For creating the web interface.
+
 LangChain: For implementing the conversational retrieval chain.
+
 HuggingFace Embeddings: For generating document embeddings.
+
 LlamaCpp: For the language model.
+
 FAISS: For the vector store to handle document retrieval.
+
 PyPDFLoader: For loading and processing PDF documents.
+
 RecursiveCharacterTextSplitter: For splitting text into manageable chunks.
+
 ConversationBufferMemory: For maintaining chat history.
 
 ## Prerequisites
 
 Python 3.7 or higher
+
 Streamlit
+
 LangChain
+
 HuggingFace Transformers
+
 FAISS
+
 LlamaCpp
+
 PyPDFLoader
-
-## Installation
-1. Clone the repository:
-
-   "[git clone https://github.com/Vibhuarvind/Content-Engine-RAG-for-PDF](https://github.com/Vibhuarvind/Content-Engine-RAG-for-PDF.git)"
-   "cd Content-Engine-RAG-for-PDF"
-
-2. Create a virtual environment:
-
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-3. Install the required packages:
-
-    pip install -r requirements.txt
