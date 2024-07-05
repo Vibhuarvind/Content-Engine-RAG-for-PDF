@@ -11,9 +11,13 @@ Content Engine is a Retrieval Augmented Generation (RAG) system that processes m
 ## Features
 
 -Upload and process multiple PDF documents.
+
 -Analyze and compare documents to identify and highlight differences.
+
 -Utilize Retrieval Augmented Generation (RAG) for effective information retrieval and generation.
+
 -Maintain chat history for contextual conversation.
+
 -Streamlit interface for an interactive user experience.
 
 ## Technologies Used
